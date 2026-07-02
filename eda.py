@@ -1,10 +1,3 @@
-"""
-eda.py
-------
-Optional exploratory data analysis: class distribution and a metadata
-table built from the XML annotations. Not required for training - call
-these manually from a notebook cell if you want the plots.
-"""
 
 import os
 from collections import Counter

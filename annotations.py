@@ -1,9 +1,3 @@
-"""
-annotations.py
---------------
-Parses the DIOR Pascal-VOC-style XML annotations, converts them to
-YOLO-format .txt label files, and draws bounding boxes for visualization.
-"""
 
 import os
 from xml.etree import ElementTree

@@ -1,15 +1,4 @@
-"""
-main.py
--------
-Entry point - just run:
 
-    python main.py
-
-Downloads the dataset (if needed), converts annotations to YOLO format,
-organizes files into ultralytics' expected layout, writes the data
-yaml files, and trains. Everything is configured through config.py -
-no command-line flags.
-"""
 
 from downloader import prepare_raw_dataset
 from annotations import convert_all_annotations
